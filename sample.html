@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+  <title>assignment</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0; 
+    }
+
+    #wrapper{
+        width:90%; 
+        margin:10px auto;
+    }
+
+    #title {
+      color:black;
+      text-decoration: none;
+      border: 20px solid   rgb(202, 197, 197);
+      margin: 0px;
+      background-color:rgba(107,111,224);
+
+    }
+    #first {
+      font-size:15px;
+      text-align: center;
+      color:black;
+      text-decoration: none;
+      border: 20px solid rgb(202, 197, 197);
+      margin:0px;
+      padding:10px;
+    }
+    #second{
+        font-size:15px;
+      text-align: center;
+      color:black;
+      text-decoration: none;
+      border: 20px solid  rgb(202, 197, 197);
+      margin:0px;
+      padding:30px;
+    }
+    #third{
+        font-size:15px;
+      text-align: center;
+      color:black;
+      text-decoration: none;
+      border: 20px solid  rgb(202, 197, 197);
+      margin:0px;
+      padding:10px;
+    }
+
+.column {
+    float: left;
+}
+
+.left, .right {
+  width: 25%;
+  
+}
+
+.middle {
+  width: 50%;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    #fourth{
+      font-size:15px;
+      color:black;
+      text-decoration: none;
+      border: 20px solid  rgb(202, 197, 197);
+      margin:0px;
+      padding:20px;
+    }
+ 
+    #footer{
+      font-size:15px;
+      color:black;
+      text-decoration: none;
+      border: 20px solid  rgb(202, 197, 197);
+      margin:0px;
+      padding:20px;
+      background-color:rgba(107,111,224);
+    }
+ 
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+table#t01 {
+    width: 100%;    
+    background-color: gray;
+    color: white;
+    font-size:13px;
+}
+
+
+
+  </style>
+</head>
+
+<body>
+    <div id="wrapper">
+    <div id="title">
+    <h1>나는 할 수 있다</h1>
+    <p>해야만 한다</p>
+    </div>
+ 
+    <div class="row">
+            <div class="column left" style="height:200px">
+    <div id="first">
+    <h2>왼쪽 리스트</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com" target="_blank">link1</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank">link2</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank">link3</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank">link4</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="column middle" style="height:200px">
+    <div id="second">
+    <h2>본문</h2>
+    <p>XML
+        <br>
+        This is the description for XML.
+    </p>
+    </div>
+</div>
+
+  <div class="column right" style="height:200px">
+    <div id="third">
+    <h2>오른쪽 리스트</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com">link1</a></li>
+            <li><a href="https://www.w3schools.com">link2</a></li>
+            <li><a href="https://www.w3schools.com">link3</a></li>
+            <li><a href="https://www.w3schools.com">link4</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+
+    <div id="fourth">
+            <h2>이거슨 테이블</h2>
+            <table id="t01">
+                    <tr style="background-color: rgba(0, 0, 0, 0.466)">
+                    
+                      <th>이름</th>
+                      <th>죄명</th> 
+                      <th>형량</th>
+                    
+                    </tr>
+                    <tr>
+                      <td>김사장</td>
+                      <td>절도</td>
+                      <td>형량</td>
+                    </tr>
+                    <tr>
+                      <td>이대표</td>
+                      <td>배임</td>
+                      <td>20년형</td>
+                    </tr>
+                    <tr>
+                      <td>오대리</td>
+                      <td>폭행</td>
+                      <td>1년 형</td>
+                    </tr>
+                    <tr>
+                        <td>이인턴</td>
+                        <td>RDB사용</td>
+                        <td>총살</td>
+                    </tr>
+                  </table>
+            </div>
+
+    
+    <div id="footer">
+    <h2>footer<h2>
+       <p>신나는 PAX DATATECH 코딩교실</p>
+    </div>
+    
+    </div>
+</body>
+</html>
